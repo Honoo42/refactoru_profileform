@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Profile Page</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header>This is your page!</header>
+		<button type="check" class="buttout">Reveal Thy Form</button>
+		<form id="show_me_your_secrets" class="secrets" >
+			First Name:<input form="show_me_your_secrets" type="text" name="Enter your name" class="inputfield1 fName">
+			Last Name:<input form="show_me_your_secrets" type="text" name="Enter your name" class="inputfield2 lName">
+			Place of Birth:<input form="show_me_your_secrets" type="text" name="Enter your name" class="inputfield">
+			<div>Favorite books</div><input form="show_me_your_secrets" type="text" name="Enter your name" class="inputbooks">
+			<input form="show_me_your_secrets" type="text" name="Enter your name" class="inputbooks">
+			<input form="show_me_your_secrets" type="text" name="Enter your name" class="inputbooks">
+			<input form="show_me_your_secrets" type="text" name="Enter your name" class="inputbooks">
+			<div> Favorite Javascript Libraries</div>
+			<input form="show_me_your_secrets" type="text" name="Enter your name" class="inputlib">
+			<input form="show_me_your_secrets" type="text" name="Enter your name" class="inputlib">
+			<input form="show_me_your_secrets" type="text" name="Enter your name" class="inputlib">
+			<button type="submit" class="subbut">Submit</button>
+
+
+
+
+
+
+
+
+
+		</form>
+	<button type="check" class="buttin"> Obfuscate This Form</button>
+	<div>
+		<h3>Name</h3>
+			<h4 class="fullName"></h4>
+		<h3>Favorite Books</h3>
+		<h3>Favorite Javascript Libraries</h3>
+		
+
+
+	</div>
+	<form onsubmit="return false" oninput="txtFullName.value = txtFirstName.value +' '+ txtLastName.value">
+First name : <input type="text" name="txtFirstName" /> <br><br>
+Last name : <input type="text" name="txtLastName" /> <br><br>
+Full name : <input type="text" name="txtFullName"  > <br><br>
+</form>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
